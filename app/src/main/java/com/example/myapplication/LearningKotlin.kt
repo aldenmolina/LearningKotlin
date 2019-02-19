@@ -52,7 +52,22 @@ fun main(args:Array<String>){
 
     println(canRide)
 
+    // lists and arrays
+    var topCandy : List<String> = listOf("Fun Dip", "Snickers", "Skittles")
 
+    println(topCandy[1])
 
+    //lists are immutables unless declared so
+    var coolNumbers : MutableList<Int> = mutableListOf(1,2,3)
+    coolNumbers[1] = 32
+    println(coolNumbers[1])
 
+    //array is mutable
+    var topDrinks : Array<String> = arrayOf("Vodka", "Whiskey", "Tequila")
+    topDrinks[1] = "Gin"
+    println(topDrinks[1])
+
+    //way to add value to the mutable list
+    //regular list and arrays have a defined length and cannot add more values
+    coolNumbers.add(0, 32)
 }
