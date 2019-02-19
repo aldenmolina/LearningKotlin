@@ -70,4 +70,18 @@ fun main(args:Array<String>){
     //way to add value to the mutable list
     //regular list and arrays have a defined length and cannot add more values
     coolNumbers.add(0, 32)
+
+    // for loops
+    for (number in coolNumbers) {
+        println(number)
+    }
+
+    //loop through the numbers between 1 and 1000 and print any number higher than 453
+
+    for (number in 1..1000) {
+        //if statement
+        if (number > 453){
+            println(number)
+        }
+    }
 }
