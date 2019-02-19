@@ -17,7 +17,29 @@ fun main(args:Array<String>){
     // be initialized with a value
     var day : Int
     day = 20
+
+
+    //number type and math
+    var wallet = 200
+    wallet = wallet - 10
+
+    println(wallet)
+
+    wallet = wallet + 20
+
+    println(wallet)
+
+    wallet -= 10
+
+    println(wallet)
+
+    var pi : Double = 3.14
+    var radius : Int = 2
     
+    //function to change type
+    var c = pi * radius.toDouble()
+
+
 
 
 }
