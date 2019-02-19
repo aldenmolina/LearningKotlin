@@ -97,4 +97,28 @@ fun main(args:Array<String>){
 
     addTwoNumbers(5, 3)
 
+    //classes
+    class Dog() {
+        var Name = ""
+        var Age = 0
+        var FurColor = ""
+
+        fun dogInfo() : String {
+            return Name + " is " + Age + " years old and has " + FurColor + " fur.
+        }
+    }
+
+    var myDog = Dog()
+    myDog.Age = 3
+    myDog.Name = "Fido"
+    myDog.FurColor = "Brown"
+
+    var otherDog = Dog()
+    otherDog.Age = 4
+    otherDog.Name = "Sara"
+    otherDog.FurColor = "Blue"
+
+    println(myDog.dogInfo())
+    println(otherDog.Name)
+
 }
