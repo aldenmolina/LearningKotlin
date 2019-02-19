@@ -84,4 +84,17 @@ fun main(args:Array<String>){
             println(number)
         }
     }
+
+    //create and call your own function with fun
+    fun printHello() {
+        println("Hello")
+    }
+    printHello()
+
+    fun addTwoNumbers(number1 : Int, number2 : Int) {
+        println(number1 + number2)
+    }
+
+    addTwoNumbers(5, 3)
+
 }
