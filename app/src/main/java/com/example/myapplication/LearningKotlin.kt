@@ -35,9 +35,22 @@ fun main(args:Array<String>){
 
     var pi : Double = 3.14
     var radius : Int = 2
-    
+
     //function to change type
     var c = pi * radius.toDouble()
+
+    //boolean type and if statements
+    var isTheLightOn : Boolean = false
+
+    if (isTheLightOn) {
+        println("Walk across the room")
+    } else {
+        println("Do not move")
+    }
+
+    var canRide : Boolean = age > 11
+
+    println(canRide)
 
 
 
